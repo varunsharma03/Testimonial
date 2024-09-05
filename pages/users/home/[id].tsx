@@ -80,7 +80,7 @@ export async function getServerSideProps(context: any) {
   console.log('ID:', id);
 
   try {
-    const response = await fetch(`http://localhost:3000/api/route/user`, {
+    const response = await fetch(`https://testimonial-g418747ga-varun-sharmas-projects-a3da8c70.vercel.app/api/route/user`, {
       method: 'GET',
       headers: {
         authorization: `Bearer ${id}`,
